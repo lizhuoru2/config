@@ -6,6 +6,11 @@ spring:
     username: root
     password:
     url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8
+  rabbitmq:
+    port: 5672
+    host: 120.79.38.140
+    username: admin
+    password: admin
   jpa:
     show-sql: true
 server:
