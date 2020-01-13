@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ORDER
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://127.0.0.1:3306/springcloud_sell?characterEncoding=utf-8
+  jpa:
+    show-sql: true
+server:
+  port: 8081
+env: test
