@@ -11,4 +11,4 @@ zuul:
   ignored-patterns: #禁止访问,填写的是set值
      - /myorders/env/print
 #     - /**/env/print
-env: gateway
+env: gateway1
