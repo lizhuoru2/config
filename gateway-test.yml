@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: gateway
   rabbitmq: #mq
     port: 5672
     host: 120.79.38.140
