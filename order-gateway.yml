@@ -9,6 +9,6 @@ zuul:
 #1.2便捷写法
 #    order: /myorders/**
   ignored-patterns: #禁止访问,填写的是set值
-     - /myorders/env/print
+#     - /myorders/env/print
 #     - /**/env/print
 env: gateway1
