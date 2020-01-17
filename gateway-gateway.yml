@@ -11,7 +11,7 @@ zuul:
   ignored-patterns: #禁止访问,填写的是set值
 #     - /myorders/env/print
 #     - /**/env/print
-env: gateways
+env: gateway
 #mq
   rabbitmq:
     host: 120.79.38.140
