@@ -13,8 +13,3 @@ zuul:
 #     - /**/env/print
 env: gateway
 #mq
-  rabbitmq:
-    host: 120.79.38.140
-    port: 5672
-    username: admin
-    password: admin
