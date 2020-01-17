@@ -1,0 +1,13 @@
+#1.自定义访问规则
+zuul:
+  routes:
+# 1.1详细写法
+    myProduct:
+      path: /myorder/**
+      serviceId: order
+      sensitiveHeaders: #不过滤Cookie", "Set-Cookie", "Authorization
+#1.2便捷写法
+#    order: /myorders/**
+  ignored-patterns: #禁止访问,填写的是set值
+     - /myorders/env/print
+#     - /**/env/print
