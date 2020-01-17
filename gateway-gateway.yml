@@ -1,3 +1,9 @@
+spring:
+  rabbitmq: #mq
+    port: 5672
+    host: 120.79.38.140
+    username: admin
+    password: admin
 #1.自定义访问规则
 zuul:
   routes:
