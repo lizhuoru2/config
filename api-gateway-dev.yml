@@ -21,4 +21,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
+#容错配置项，默认配置超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
 env: asd
