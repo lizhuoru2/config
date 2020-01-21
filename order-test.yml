@@ -16,3 +16,16 @@ spring:
 server:
   port: 8081
 env: tesst
+#容错配置项，默认配置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+    Hystrix1: #指定Hystrix1方法容错时间
+      execution:
+        isolation:
+           thread:
+              timeoutInMilliseconds: 3000
